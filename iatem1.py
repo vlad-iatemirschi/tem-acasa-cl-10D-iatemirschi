@@ -1,0 +1,14 @@
+n=8546
+a=n%10
+print("ultima cifra a numarului",n,"=",a)
+b=(n%100)//10
+print ("penultima cifra a numarului",n,"=",b)
+c=(n%1000)//100
+print ("a doua cifra a numarului",n,"=",c)
+d=n//1000
+print ("prima cifra a numarului",n,"=",d)
+print ("catul impartirii la 9","=",n//9)
+print ("restul impartirii la 9","=",n%9)
+print ("suma cifrelor numarului",n,"=",a+b+c+d)
+h=1000*a+100*b+10*c+d
+print ("rasturnatul numarului",n,"=",h)
